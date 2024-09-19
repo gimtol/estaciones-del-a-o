@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="stylesheet" href="estilo.css">
+    <title>Estaciones del Año</title>
+</head>
+
+<body>
+<!-- SECCION I N I C I O -->
+<section id="inicio">
+    <div class="contenido">
+        <header>
+            <div class="contenido-header">
+                <h1>Estaciones del año</h1>
+                <nav id="nav" class="">
+                    <ul id="links">
+                        <li><a href="#inicio" class="seleccionado" onclick="seleccionar(this)">INICIO</a></li>
+                        <li><a href="#primavera" onclick="seleccionar(this)">PRIMAVERA</a></li>
+                        <li><a href="#verano" onclick="seleccionar(this)">VERANO</a></li>
+                        <li><a href="#otonio" onclick="seleccionar(this)">OTOÑO</a></li>
+                        <li><a href="#invierno" onclick="seleccionar(this)">INVIERNO</a></li>
+                        <li><a href="registro.html" onclick="seleccionar(this)">REGISTRESE</a></li>
+                        <li><a href="login.html" onclick="seleccionar(this)">INGRESO</a></li>
+                    </ul>
+                </nav>
+
+                <!-- Icono del menu responsive -->
+                <div id="icono-nav" onclick="responsiveMenu()">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+
+                <div class="redes">
+                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram-square"></i></a>
+                </div>
+            </div>
+        </header>
+        <div class="presentacion">
+            <p class="bienvenida">Bienvenidos a las Estaciones del Año</p>
+            <h2>Descubre Cada Estación</h2>
+            <p class="descripcion">Cada estación del año tiene su propio encanto y características únicas.
+                La primavera nos trae flores y renovación, el verano calor y alegría, el otoño colores cálidos
+                y recogimiento, y el invierno tranquilidad y nieve. Explora cada una de estas estaciones y descubre
+                lo que tienen para ofrecer.</p>
+            <a href="conocenos.html" class="boton">Conócenos</a>
+        </div>
+    </div>
+</section>
+
+<!-- SECCION PRIMAVERA -->
+<section id="primavera">
+    <div class="contenedor-foto">
+        <img src="img/primavera.jpeg" alt="Primavera">
+    </div>
+    <div class="estacion">
+        <p class="titulo-seccion">Primavera</p>
+        <h2>La Estación de la Renovación</h2>
+        <p>La primavera es una temporada de renacimiento. Las flores comienzan a florecer, el clima se suaviza y los días se alargan. Es un momento perfecto para disfrutar de la naturaleza y hacer nuevos comienzos.</p>
+        <a href="primavera.html" class="boton">Más Información</a>
+    </div>
+</section>
+
+<!-- SECCION VERANO -->
+<section id="verano">
+    <div class="contenedor-foto">
+        <img src="img/verano.JPEG" alt="Verano">
+    </div>
+    <div class="estacion">
+        <p class="titulo-seccion">Verano</p>
+        <h2>La Estación del Calor y la Alegría</h2>
+        <p>El verano es conocido por sus días largos y soleados. Es la temporada para disfrutar de la playa, hacer actividades al aire libre y relajarse bajo el sol. Las altas temperaturas y las vacaciones hacen de esta una estación muy esperada.</p>
+        <a href="verano.html" class="boton">Más Información</a>
+    </div>
+</section>
+
+<!-- SECCION OTOÑO -->
+<section id="otonio">
+    <div class="contenedor-foto">
+        <img src="img/otono.jpg" alt="Otoño">
+    </div>
+    <div class="estacion">
+        <p class="titulo-seccion">Otoño</p>
+        <h2>La Estación de los Colores Cálidos</h2>
+        <p>El otoño se caracteriza por el cambio en el color de las hojas y el clima más fresco. Es una temporada de recogimiento y preparación para el invierno. Las cosechas y los festivales de otoño son parte de su encanto.</p>
+        <a href="otoño.html" class="boton">Más Información</a>
+    </div>
+</section>
+
+<!-- SECCION INVIERNO -->
+<section id="invierno">
+    <div class="contenedor-foto">
+        <img src="img/invierno.jpg" alt="Invierno">
+    </div>
+    <div class="estacion">
+        <p class="titulo-seccion">Invierno</p>
+        <h2>La Estación de la Tranquilidad</h2>
+        <p>El invierno trae consigo el frío y, en muchas regiones, la nieve. Es una temporada para disfrutar de la tranquilidad, las festividades y el confort del hogar. Las noches largas y el ambiente sereno definen esta estación.</p>
+        <a href="invierno.html" class="boton">Más Información</a>
+    </div>
+</section>
+
+<!-- SECCION FOOTER -->
+<footer>
+    <div class="redes">
+        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram-square"></i></a>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+
+</html>

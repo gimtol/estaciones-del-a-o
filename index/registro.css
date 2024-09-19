@@ -1,0 +1,67 @@
+/* Fondo y contenedor principal */
+body {
+    background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url("img/fondo-inicio.jpg");
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    background-color: rgba(0, 0, 0, .8);
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+    color: #ff5080;
+    margin-bottom: 20px;
+}
+
+label {
+    color: #fff;
+    margin-bottom: 10px;
+    display: block;
+}
+
+input[type="email"],
+input[type="password"],
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+button,
+.btn-principal {
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 50px;
+    background-color: #ff5080;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.5s;
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 10px; /* Espacio entre botones */
+}
+
+button:hover,
+.btn-principal:hover {
+    background-color: #ff3366;
+}

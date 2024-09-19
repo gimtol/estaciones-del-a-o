@@ -1,0 +1,363 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+#inicio {
+    background: linear-gradient( rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url("img/fondo-inicio.jpg");
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+}
+
+#inicio .contenido header {
+    background-color: rgba(0, 0, 0, .8);
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    top: 0;
+}
+
+#inicio .contenido header .contenido-header {
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+#inicio .contenido header .contenido-header h1 {
+    text-align: center;
+    color: #ff5080;
+}
+
+#inicio .contenido header .contenido-header nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+#inicio .contenido header .contenido-header nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 12px;
+    font-weight: 400;
+    transition: .5s;
+}
+
+#inicio .contenido header .contenido-header nav ul li a:hover {
+    color: #ff5080;
+}
+
+#inicio .contenido header .contenido-header .redes a {
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    margin-left: 10px;
+    transition: .5s;
+}
+
+#inicio .contenido header .contenido-header .redes a:hover {
+    color: #ff5080;
+}
+
+#inicio .contenido header .contenido-header .seleccionado {
+    color: #ff5080;
+}
+
+#inicio .contenido .presentacion {
+    max-width: 1100px;
+    height: 100vh;
+    margin: auto;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#inicio .contenido .presentacion .bienvenida {
+    font-size: 16px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+#inicio .contenido .presentacion h2 {
+    font-size: 55px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+#inicio .contenido .presentacion h2 span {
+    font-size: 25px;
+    color: #ff5080;
+}
+
+#inicio .contenido .presentacion .descripcion {
+    max-width: 700px;
+    margin: 25px auto;
+    font-size: 18px;
+    text-align: center;
+}
+
+#inicio .contenido .presentacion a {
+    text-decoration: none;
+    display: inline-block;
+    margin: 25px;
+    padding: 20px 25px;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: .5s;
+}
+
+#inicio .contenido .presentacion a:hover {
+    background-color: #ff5080;
+}
+
+#icono-nav {
+    color: #fff;
+    display: none;
+}
+
+/* *********************/
+/* SECCIÓN PRIMAVERA */
+/* *********************/
+
+
+
+
+
+
+#primavera {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 80px 15px;
+    background-color: #eaf4e8;
+}
+
+#primavera .contenedor-foto {
+    max-width: 500px;
+    margin-right: 20px;
+}
+
+#primavera .contenedor-foto img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#primavera .estacion {
+    max-width: 600px;
+    text-align: left;
+}
+
+#primavera .estacion .titulo-seccion {
+    font-size: 24px;
+    font-weight: 600;
+    color: #009688;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+#primavera .estacion h2 {
+    font-size: 36px;
+    color: #004d40;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+
+#primavera .estacion p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #00796b;
+}
+
+/* *********************/
+/* SECCIÓN VERANO */
+/* *********************/
+
+#verano {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 80px 15px;
+    background-color: #fff3e0;
+}
+
+#verano .contenedor-foto {
+    max-width: 500px;
+    margin-right: 20px;
+}
+
+#verano .contenedor-foto img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#verano .estacion {
+    max-width: 600px;
+    text-align: left;
+}
+
+#verano .estacion .titulo-seccion {
+    font-size: 24px;
+    font-weight: 600;
+    color: #ff9800;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+#verano .estacion h2 {
+    font-size: 36px;
+    color: #ff5722;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+
+#verano .estacion p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #e64a19;
+}
+
+/* *********************/
+/* SECCIÓN OTOÑO */
+/* *********************/
+
+#otonio {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 80px 15px;
+    background-color: #fbe9e7;
+}
+
+#otonio .contenedor-foto {
+    max-width: 500px;
+    margin-right: 20px;
+}
+
+#otonio .contenedor-foto img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#otonio .estacion {
+    max-width: 600px;
+    text-align: left;
+}
+
+#otonio .estacion .titulo-seccion {
+    font-size: 24px;
+    font-weight: 600;
+    color: #d84315;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+#otonio .estacion h2 {
+    font-size: 36px;
+    color: #bf360c;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+
+#otonio .estacion p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #3e2723;
+}
+
+/* *********************/
+/* SECCIÓN INVIERNO */
+/* *********************/
+
+#invierno {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 80px 15px;
+    background-color: #e3f2fd;
+}
+
+#invierno .contenedor-foto {
+    max-width: 500px;
+    margin-right: 20px;
+}
+
+#invierno .contenedor-foto img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#invierno .estacion {
+    max-width: 600px;
+    text-align: left;
+}
+
+#invierno .estacion .titulo-seccion {
+    font-size: 24px;
+    font-weight: 600;
+    color: #03a9f4;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+#invierno .estacion h2 {
+    font-size: 36px;
+    color: #0288d1;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+
+#invierno .estacion p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #01579b;
+}
+
+
+#primavera .estacion .boton,
+#verano .estacion .boton,
+#otonio .estacion .boton,
+#invierno .estacion .boton {
+    text-decoration: none;
+    display: inline-block;
+    margin: 25px 0;
+    padding: 15px 25px;
+    border: 2px solid #0e0909;
+    border-radius: 50px;
+    color: #0c0808;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: .5s;
+    background-color: transparent;
+}
+
+
+#primavera .estacion .boton:hover,
+#verano .estacion .boton:hover,
+#otonio .estacion .boton:hover,
+#invierno .estacion .boton:hover {
+    background-color: #ff5080;
+    color: #070404;
+}
+
